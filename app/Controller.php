@@ -5,6 +5,7 @@
  * --
  * --
  * http://gosoftware.web.id
+ * http://phpbego.wordpress.com
  * e-mail : cs@gosoftware.web.id
  * WA : 6285263616901
  * --
@@ -16,18 +17,14 @@ use PDO;
 
 class Controller {
 
-	protected $db;
-	private $dbhost = "localhost";
-	private $dbname = "dbcrudphpmysql";
-	private $dbuser = "root";
-	private $dbpass = "";
+	protected object $db;
+	private string $dbhost = "localhost";
+	private string $dbname = "dbcrudphpmysql";
+	private string $dbuser = "root";
+	private string $dbpass = "";
 
 	public function __construct()
 	{
-
-        if (session_id() == "") {
-            session_start();
-        }
 
 		try {
 			$this->db = new PDO("mysql:host=" . $this->dbhost . ";dbname=" . $this->dbname . "", $this->dbuser, $this->dbpass);

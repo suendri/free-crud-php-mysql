@@ -1,9 +1,9 @@
 # CRUD PHP MySQL
-Create Read Update and Delete with PHP using PDO and Database MySQL
+Simple Create Read Update and Delete with PHP using PDO and Database MySQL
 
 ## Update
 1. Composer Ready
-2. OOP Ready
+2. PHP 7.4 Ready
 3. Simple Router
 4. Bootstrap 4.4.1
 5. DataTables 1.10.18
@@ -13,8 +13,9 @@ Create Read Update and Delete with PHP using PDO and Database MySQL
 ## Installation
 ```sh
 git clone https://github.com/suendri/free-crud-php-mysql.git
-setting DATABASE app/Controller.php
-install DATABASE db/
+setting Connection app/Controller.php
+install Database db/
+set RewriteBase on .htaccess based on folder name
 ```
 ## Donation
 Please read DONASI.txt
