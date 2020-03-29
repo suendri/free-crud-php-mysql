@@ -20,4 +20,4 @@ set RewriteBase on .htaccess based on folder name
 ## Donation
 Please read DONASI.txt
 
-![](screenshot.jpg)
+![](screenshot2.jpg)
