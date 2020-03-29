@@ -1,6 +1,7 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
 <h2>TAMBAH MAHASISWA</h2>
+
 <form method="POST" action="<?php echo URL; ?>/mhsw_proses.php">
 	<div class="form-group row">
 		<label class="col-sm-2">NIM</label>
