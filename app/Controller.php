@@ -27,9 +27,11 @@ class Controller {
 	{
 
 		try {
+			
 			$this->db = new PDO("mysql:host=" . $this->dbhost . ";dbname=" . $this->dbname . "", $this->dbuser, $this->dbpass);
+		
 		} catch (PDOException $e) {
-			die ("Database tidak terhubung!");
+			die ("Error ! " . $e->getMessage());
 		}
 	}
 }

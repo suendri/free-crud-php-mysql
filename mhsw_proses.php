@@ -28,3 +28,9 @@ if (isset($_POST['update'])) {
 	$mhsw->update();
 	header("location:" . URL . "/mahasiswa");
 }
+
+if (isset($_POST['delete'])) {
+
+	$mhsw->delete();
+}
+
