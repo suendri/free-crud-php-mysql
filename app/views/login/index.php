@@ -1,4 +1,6 @@
-<h2>Login Sistem</h2>
+<h1>Free CRUD PHP MySQL</h1>
+
+<h2>Login System</h2>
 
 <form action="<?php echo URL; ?>/login/proses" method="post">
      <table>

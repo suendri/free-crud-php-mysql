@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Suendri">
 
-	<title>Eid Mubarak Blog | PBWL Project10</title>
+	<title>Free CRUD PHP MySQL | Dashboard</title>
 	<link rel="shortcut icon" href="<?php echo AST; ?>/img/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="<?php echo AST; ?>/datatables/datatables.min.css">
 	<link rel="stylesheet" href="<?php echo AST; ?>/css/style.css">
