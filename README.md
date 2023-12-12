@@ -1,5 +1,5 @@
-## Free CRUD PHP SQLite
-Create Read Update and Delete with PHP using PDO and Database SQLite
+## Free CRUD PHP MySQL
+Create Read Update and Delete with PHP using PDO and Database MySQL
 
 ## Donation
 Please read DONASI.txt
